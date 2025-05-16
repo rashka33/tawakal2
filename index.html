@@ -11,17 +11,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        /* Apply Inter font globally */
         body {
             font-family: 'Inter', sans-serif;
         }
-
-        /* Add a subtle background pattern or color if desired */
-        /* body { background-color: #f9f9f9; } */
     </style>
 </head>
 
 <body class="bg-gray-100 text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-teal-700 font-bold text-xl">Tawakal Store</a>
+            <div class="space-x-6">
+                <a href="#products" class="hover:text-teal-700 font-semibold">Shop</a>
+                <a href="#about" class="hover:text-teal-700 font-semibold">About</a>
+                <a href="#contact" class="hover:text-teal-700 font-semibold">Contact</a>
+            </div>
+        </div>
+    </nav>
 
     <header class="bg-teal-700 text-white shadow-md">
         <div class="container mx-auto px-6 py-4">
@@ -41,6 +49,12 @@
             <p class="text-md font-semibold text-red-600 bg-red-100 p-3 rounded-lg inline-block">
                 Please note: We are currently not accepting online orders. Please visit our store.
             </p>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="mb-12 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4 text-teal-800 border-b pb-2">About Us</h2>
+            <p class="text-lg mb-2">Tawakal Cultural Store is a family-owned business serving Salt Lake City and surrounding communities. We’re passionate about sharing the beauty of Somali and Islamic culture through clothing, fragrances, and traditional goods. Our goal is to make everyone feel welcome, supported, and proud of their heritage.</p>
         </section>
 
         <section class="mb-12 bg-white p-6 rounded-lg shadow-md">
@@ -66,58 +80,51 @@
             </div>
         </section>
 
-        <section class="mb-12">
+        <!-- Products -->
+        <section id="products" class="mb-12">
             <h2 class="text-2xl font-semibold mb-6 text-center text-teal-800">Our Products</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 <div class="bg-white p-4 rounded-lg shadow-md text-center">
                     <img src="tawaka2.jpg" alt="abaya" class="w-full h-48 object-cover rounded-md mb-4"
                         onerror="this.src='https://placehold.co/300x200/CCCCCC/FFFFFF?text=Image+Not+Found'; this.alt='Image loading error'">
-                    <h3 class="font-semibold text-lg">a</h3>
-                    <p class="text-sm text-gray-600">Brief description of the item.</p>
+                    <h3 class="font-semibold text-lg">Elegant Black Abaya</h3>
+                    <p class="text-sm text-gray-600">Classic design, lightweight and comfortable for daily wear.</p>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow-md text-center">
-                    <img src="tawakal3.jpg" alt="Product 2 Placeholder" class="w-full h-48 object-cover rounded-md mb-4"
+                    <img src="tawakal3.jpg" alt="Perfume" class="w-full h-48 object-cover rounded-md mb-4"
                         onerror="this.src='https://placehold.co/300x200/CCCCCC/FFFFFF?text=Image+Not+Found'; this.alt='Image loading error'">
-                    <h3 class="font-semibold text-lg">Cultural Item 2</h3>
-                    <p class="text-sm text-gray-600">Brief description of the item.</p>
+                    <h3 class="font-semibold text-lg">Musk Perfume</h3>
+                    <p class="text-sm text-gray-600">Long-lasting fragrance, alcohol-free and family safe.</p>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow-md text-center">
-                    <img src="tawakal3.jpg" alt="Product 3 Placeholder" class="w-full h-48 object-cover rounded-md mb-4"
+                    <img src="tawakal3.jpg" alt="Henna Powder" class="w-full h-48 object-cover rounded-md mb-4"
                         onerror="this.src='https://placehold.co/300x200/CCCCCC/FFFFFF?text=Image+Not+Found'; this.alt='Image loading error'">
-                    <h3 class="font-semibold text-lg">Cultural Item 3</h3>
-                    <p class="text-sm text-gray-600">Brief description of the item.</p>
+                    <h3 class="font-semibold text-lg">Natural Henna Powder</h3>
+                    <p class="text-sm text-gray-600">Premium quality for beautiful, safe hand and hair art.</p>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow-md text-center">
-                    <img src="tawakal4.jpg" alt="Product 4 Placeholder" class="w-full h-48 object-cover rounded-md mb-4"
+                    <img src="tawakal4.jpg" alt="Incense" class="w-full h-48 object-cover rounded-md mb-4"
                         onerror="this.src='https://placehold.co/300x200/CCCCCC/FFFFFF?text=Image+Not+Found'; this.alt='Image loading error'">
-                    <h3 class="font-semibold text-lg">Cultural Item 4</h3>
-                    <p class="text-sm text-gray-600">Brief description of the item.</p>
+                    <h3 class="font-semibold text-lg">Somali Incense (Uunsi)</h3>
+                    <p class="text-sm text-gray-600">Bring a fresh scent to your home with traditional uunsi.</p>
                 </div>
-                <div class="bg-white p-4 rounded-lg shadow-md text-center">
-                    <img src="tawakal5.jpg" alt="Product 5 Placeholder" class="w-full h-48 object-cover rounded-md mb-4"
-                        onerror="this.src='https://placehold.co/300x200/CCCCCC/FFFFFF?text=Image+Not+Found'; this.alt='Image loading error'">
-                    <h3 class="font-semibold text-lg">Cultural Item 5</h3>
-                    <p class="text-sm text-gray-600">Brief description of the item.</p>
-                </div>
-                <div class="bg-white p-4 rounded-lg shadow-md text-center">
-                    <img src="tawakal1.jpg" alt="tawakal" class="w-full h-48 object-cover rounded-md mb-4"
-                        onerror="this.src='https://placehold.co/300x200/CCCCCC/FFFFFF?text=Image+Not+Found'; this.alt='Image loading error'">
-                    <h3 class="font-semibold text-lg">Cultural Item 6</h3>
-                    <p class="text-sm text-gray-600">Brief description of the item.</p>
-                </div>
-                <div class="bg-white p-4 rounded-lg shadow-md text-center">
-                    <img src="tawakal6.jpg" alt="Product 7 Placeholder" class="w-full h-48 object-cover rounded-md mb-4"
-                        onerror="this.src='https://placehold.co/300x200/CCCCCC/FFFFFF?text=Image+Not+Found'; this.alt='Image loading error'">
-                    <h3 class="font-semibold text-lg">Cultural Item 7</h3>
-                    <p class="text-sm text-gray-600">Brief description of the item.</p>
-                </div>
-                <div class="bg-white p-4 rounded-lg shadow-md text-center">
-                    <img src="tawakal7.jpg" alt="Product 8 Placeholder" class="w-full h-48 object-cover rounded-md mb-4"
-                        onerror="this.src='https://placehold.co/300x200/CCCCCC/FFFFFF?text=Image+Not+Found'; this.alt='Image loading error'">
-                    <h3 class="font-semibold text-lg">Cultural Item 8</h3>
-                    <p class="text-sm text-gray-600">Brief description of the item.</p>
-                </div>
+                <!-- Add more products as needed -->
             </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-12 bg-white p-6 rounded-lg shadow-md text-center">
+            <h2 class="text-2xl font-semibold mb-4 text-teal-800 border-b pb-2">Contact Us</h2>
+            <p class="mb-2">Questions? Want to reserve a product? Call or message us below:</p>
+            <p class="mb-2">
+                <i class="fas fa-phone text-teal-600"></i> <a href="tel:+18015551234" class="text-teal-700 underline">+1 (801) 792-5445</a>
+            </p>
+            <p class="mb-2">
+                <i class="fab fa-whatsapp text-green-500"></i> <a href="https://wa.me/18017925445" target="_blank" class="text-green-600 underline">Chat with us on WhatsApp</a>
+            </p>
+            <p class="mb-2">
+                <i class="fas fa-envelope text-teal-600"></i> <a href="mailto:tawakalstore@gmail.com" class="text-teal-700 underline">tawakalstore@gmail.com</a>
+            </p>
         </section>
 
     </main>
@@ -135,5 +142,4 @@
     </script>
 
 </body>
-
 </html>
